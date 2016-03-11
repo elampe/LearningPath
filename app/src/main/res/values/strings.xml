@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LearningPath</string>
+    <string name="studentId">student id</string>
+    <string name="firstName">first name</string>
+    <string name="lastName">last name</string>
+    <string name="emailAddress">email address</string>
+    <string name="password">password</string>
+    <string name="skillLevel">What is your skill level?</string>
+    <string name="beginner">Beginner</string>
+    <string name="someExperience">Some experience</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="experienced">Experienced</string>
+    <string name="master">Master</string>
+    <string name="videoTitles">Title</string>
+    <string name="extraInfo">extra information about content and provider</string>
+    <string name="titleNewProfile">NEW PROFILE</string>
+    <string name="buttonSignIn">sign in</string>
+    <string name="newUser">new user?</string>
+    <string name="Login">LOGIN</string>
+</resources>

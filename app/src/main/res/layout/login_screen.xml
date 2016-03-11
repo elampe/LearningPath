@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context="com.example.henry_light.login.MainActivity"
+    android:focusableInTouchMode="false"
+    android:background="#04b4db">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Login"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="#069dfd"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+        <EditText
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text= "@string/studentId" />
+        <EditText
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text= "@string/password"
+            android:id="@+id/studentIdInput"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <Button
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonSignIn"
+            android:id="@+id/signInButton"
+            android:onClick="onclickSignIn"
+            android:singleLine="false"
+            android:backgroundTint="#066dfd"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newUser"
+            android:textColor="#ffffff"
+            android:onClick="newUserOnClick"/>
+
+
+    </LinearLayout>
+</LinearLayout>
