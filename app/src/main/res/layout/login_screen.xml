@@ -29,14 +29,16 @@
         android:background="#ffffff">
 
         <EditText
+            android:id="@+id/etUsername"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:text= "@string/studentId" />
+            android:text= "username" />
+
         <EditText
+            android:id="@+id/etPassword"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:text= "@string/password"
-            android:id="@+id/studentIdInput"/>
+            android:text= "@string/password" />
 
     </LinearLayout>
 
@@ -53,17 +55,16 @@
             android:layout_height="wrap_content"
             android:text="@string/buttonSignIn"
             android:id="@+id/signInButton"
-            android:onClick="onclickSignIn"
             android:singleLine="false"
             android:backgroundTint="#066dfd"
             android:textColor="#ffffff" />
 
         <TextView
+            android:id="@+id/tvRegisterLink"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/newUser"
-            android:textColor="#ffffff"
-            android:onClick="newUserOnClick"/>
+            android:textColor="#ffffff" />
 
 
     </LinearLayout>

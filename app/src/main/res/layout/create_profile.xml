@@ -26,29 +26,40 @@
         android:orientation="vertical"
         android:background="#ffffff">
         <EditText
+            android:id="@+id/etName"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:text="@string/studentId" />
+            android:text="Name" />
 
         <EditText
+            android:id="@+id/etAge"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:text="@string/firstName"/>
+            android:text="Age"/>
 
         <EditText
+            android:id="@+id/etUsername"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:text="@string/lastName"/>
+            android:text="username"/>
 
         <EditText
-            android:layout_width="190dp"
-            android:layout_height="wrap_content"
-            android:text="@string/emailAddress"/>
-
-        <EditText
+            android:id="@+id/etPassword"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
             android:text="@string/password"/>
+
+        <EditText
+            android:id="@+id/etSkill"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="skill level"/>
+
+        <EditText
+            android:id="@+id/etPreferences"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="preferences"/>
 
 
     </LinearLayout>
@@ -64,7 +75,7 @@
         android:layout_width="210dp"
         android:layout_height="wrap_content"
         android:text="Create Profile"
-        android:id="@+id/createButton"
+        android:id="@+id/bRegister"
         android:onClick="onclickSignIn"
         android:singleLine="false"
         android:backgroundTint="#066dfd"
